@@ -26,7 +26,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 <link rel="favicon"
-	href="http://52.78.185.92:8080/todaydea/etc/img/favicon.ico">
+	href="http://localhost:8080/todaydea/etc/img/favicon.ico">
 </head>
 <body>
 
@@ -45,7 +45,7 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="http://52.78.185.92:8080/todaydea"><img
+				<a class="navbar-brand" href="http://localhost:8080/todaydea"><img
 					alt="¸ÞÀÎ" src="etc/img/naver.gif" class="topbarLogo"></a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
