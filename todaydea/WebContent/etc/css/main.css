@@ -1,0 +1,321 @@
+@charset "EUC-KR";
+
+/* 긴 문자열 ... 처리 */
+.EllipsText{
+overflow : hidden;
+white-space: nowrap;
+text-overflow:ellipsis;
+-o-text-overflow:ellipsis;
+-ms-text-overflow:ellipsis;
+-moz-binding:url(/xe/ellipsis.xml#ellipsis);
+}
+.listTable{width:100%;border:1px solid #E0E1DB;table-layout:fixed;white-space:nowrap;}
+.listTable tr th { padding-top:3px; height:23px; font-weight:normal; background:#F6F6F6; }
+.listTable tr th div{text-align:center;font-size:8pt;font-family:verdana;}
+.listTable td{border-top:1px solid #EFF0ED;padding:2px 5px 2px 5px;height:22px; line-height:22px;}
+.listTable .number{text-align:center;font-size:7pt;font-family:verdana;}
+.listTable .title{color:#616161;font-size:8pt;font-family:verdana;}
+.listTable .title a{color:#616161;text-decoration:none;}
+.listTable .date{font-size:7pt;font-family:verdana;text-align:left;color:#616161;text-align:center;}
+/* 긴 문자열 ... 처리 끝 */
+
+/* index.jsp */
+#indexDayMon, 
+#indexDayTue, 
+#indexDayWed, 
+#indexDayThu, 
+#indexDayFri {
+	width: 20%;
+}
+
+#day {
+	color: #47C83E !important;
+}
+/* index.jsp 끝 */
+
+.topbar {
+	background-color: #fff;
+	border-color: #0BC904;
+}
+
+.topbarLogo {
+	height: 20px;
+}
+
+.topbarManu {
+	float: right;
+}
+
+ul.nav.navbar-nav.topbarManu li a {
+	margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+.topbar-hover:hover {
+	color: #000;
+}
+
+div.container.mainName {
+	margin-top: 60px;
+	height: 100%;
+}
+
+.starter-templete {
+	text-align: center;
+}
+
+div.jumbotron {
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+}
+
+div.jumbotron div.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.jumbotron div.container img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+}
+
+div.container div.container {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+day {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.container.day div.col-md-1.col-xs-1.col-sm-1 {
+	border-bottom-style: solid;
+	border-bottom-color: #D8D8D8;
+	border-bottom-width: 2px;
+	padding-top: 10px;
+	padding-bottom: 7px;
+	width: 16%;
+}
+
+div.container div.container div.row {
+	line-height: 100px;
+	margin-bottom: 20px;
+	height: 220px;
+}
+
+div.col-md-4.col-xs-4.col-sm-4 div.row {
+	height: 100%;
+}
+
+div.container div.container div.row div.col-md-4.col-xs-4.col-sm-4 {
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+		
+	height: 100%;
+	
+	width: 17%;
+   	margin-left: 8.16%;
+   	margin-right: 8.16%;
+   	margin-top: 10px;
+   	margin-bottom: 10px;
+}
+
+div.container div.container div.row div.col-md-4.col-xs-4.col-sm-4 div.row.col-md-12.col-xs-12.col-sm-12 {
+	border-style: solid;
+	border-color: #0BC904;
+	border-radius: 10px;
+	
+	padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+
+
+div.col-md-4.col-xs-4.col-sm-4 div.row div.col-md-12.col-xs-12.col-sm-12.imgIn {
+	height: 80%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.col-md-4.col-xs-4.col-sm-4 div.row div.col-md-12.col-xs-12.col-sm-12.imgIn img {
+	width: 100%;
+	height: 100%;
+}
+
+div.col-md-4.col-xs-4.col-sm-4 div.row div.col-md-12.col-xs-12.col-sm-12.content {
+	height: 20%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+footer {
+	margin-top: 40px;
+	height: 130px;
+	
+	border-top-style: solid;
+	border-top-color: #D8D8D8;
+	border-top-width: 2px;
+	padding-top: 31px;
+	padding-bottom: 31px;
+}
+
+footer.footer div.container div.row {
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+/* select.jsp */
+div.container.select {
+	margin-top: 80px;
+	height: 100%;
+}
+
+div.row div.col-md-4.col-xs-4.col-sm-4 div.row {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D8D8D8;
+}
+
+/* 회차 소개 */
+div.row div.col-md-12.col-xs-12.col-sm-12 {
+	line-height: 250%;
+}
+div.row div.col-md-12.col-xs-12.col-sm-12 div.col-md-1.col-xs-1.col-sm-1.intro {
+	font-size: 10px;
+}
+div.row div.col-md-12.col-xs-12.col-sm-12 div.col-md-1.col-xs-1.col-sm-1.intro, 
+div.row div.col-md-12.col-xs-12.col-sm-12 div.col-md-6.col-xs-6.col-sm-6.intro, 
+div.row div.col-md-12.col-xs-12.col-sm-12 div.col-md-2.col-xs-2.col-sm-2.intro {
+	height: 38px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+/* 회차 목록 */
+div.row div.col-md-12.col-xs-12.col-sm-12 div.row {
+	margin-top: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #D8D8D8;
+}
+
+div.row div.col-md-12.col-xs-12.col-sm-12 div.row div.col-md-1.col-xs-1.col-sm-1.content img {
+	width: 100%;
+	height: 100%;
+}
+
+div.row div.col-md-12.col-xs-12.col-sm-12 div.row div.col-md-1.col-xs-1.col-sm-1.content, 
+div.row div.col-md-12.col-xs-12.col-sm-12 div.row div.col-md-6.col-xs-6.col-sm-6.content, 
+div.row div.col-md-12.col-xs-12.col-sm-12 div.row div.col-md-2.col-xs-2.col-sm-2.content {
+	height: 38px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+/* 회차 목록 끝 */
+
+/* 작품 순서 */
+div.row div.col-md-12.col-xs-12.col-sm-12 div.order {
+	line-height: 50px;
+}
+div.row div.col-md-12.col-xs-12.col-sm-12 div.col-md-4.col-xs-4.col-sm-4 {
+	text-align: center;
+	vertical-align: middle;
+}
+/* 작품 순서 끝 */
+
+/* 광고 영역 */
+div.row div.col-md-4.col-xs-4.col-sm-4 div.row {
+	margin-bottom: 15px;
+}
+div.row div.col-md-4.col-xs-4.col-sm-4 div.row div.col-md-12.col-xs-12.col-sm-12 img {
+	width: 100%;
+	height: 100%;
+}
+/* 광고 영역 끝 */
+
+div.row div.col-md-12.col-xs-12.col-sm-12.day div.col-md-1.col-xs-1.col-sm-1 {
+	width: 20%;
+}
+
+div.row div.col-md-12.col-xs-12.col-sm-12.day, div.row div.col-md-12.col-xs-12.col-sm-12 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D8D8D8;
+}
+/* select.jsp 끝 */
+
+/* view.jsp */
+/* 여백 */
+.no {
+	border-bottom-style: none !important;
+}
+/* 요일 */
+.v_day {
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	float: left;
+	height: 50px;
+	width: 100%;
+}
+/* 제목 */
+#v_name {
+	font-weight: bold;
+}
+#content_sub {
+	color: #8C8C8C;
+}
+/* 설명 */
+.v_intro div.col-md-10.col-xs-10.col-sm-10 {
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #ABABAB;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 48px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #D8D8D8;
+}
+/* 본문 */
+.v_content div.col-md-10.col-xs-10.col-sm-10 {
+	margin-top: 70px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #D8D8D8;
+	text-align: center;
+}
+.v_content div.col-md-10.col-xs-10.col-sm-10 img {
+	width: 100%;
+}
+/* 광고 */
+.v_ad div.col-md-10.col-xs-10.col-sm-10 {
+	margin-top: 30px;
+	text-align: center;
+}
+/* view.jsp 끝 */
